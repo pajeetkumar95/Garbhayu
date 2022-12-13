@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;text-decoration: none;
+    box-sizing: border-box;
+}
+
+.garb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+
+.wrapperleft img{
+    width: 30%;
+}
+.wrapperright a{
+    text-decoration: none;
+    color: #000;
+}
+.wrapperright .ab1{
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 30px;
+}
+.wrapperright .ab1:hover{
+    background-color: darkgray;
+}
+.wrapperright .ab2{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+.wrapperright .ab2:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+.listhead ul{
+    display: flex;
+    justify-content: center;
+    border: 1px solid;
+    width: 100%;
+    background-color:red;
+}
+.listhead ul li{
+    list-style: none;
+    padding: 1rem;
+}
+.listhead ul li a{
+    color: #fff;
+    padding: 1rem;
+}
+.listhead ul li a:hover{
+    background-color: #000;
+    padding: 1rem;
+}
+.listhead ul li a i{
+    padding-left: 1rem;
+}
+
+#para{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 3rem;
+}
+.paraleft{
+    width: 40%;
+    text-align: center;
+}
+.paraleft h1{
+    padding: 4rem 9rem;
+    font-family: 'Poppins', sans-serif;
+}
+.paraleft a{
+    color:#000;
+}
+.ramu{
+    position: relative;
+    overflow: hidden;
+    border: 1px solid;
+    padding: 1rem;
+    margin: 0px 8rem;
+}
+.paraleft a i{
+    padding-left: 1rem;
+}
+.pararigth{
+    width: 60%;
+}
+
+#foot .foothead{
+    text-align: center;
+    padding: 3rem 0rem;
+}
+
+.footleft{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.footleft .image1 img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.image1{
+    width: 30%;
+    padding: 1rem 8rem;
+    text-align: center;
+}
+.image1 p{
+    padding: 1rem 0px;
+}
+.paraleft a::before{
+    content: "";
+    position: absolute;
+    top :100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0, 0.5);
+    transition: all 1s ease;
+}
+.paraleft a:hover::before{
+    top: 0;
+
+
+}
